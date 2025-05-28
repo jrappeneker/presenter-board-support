@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Presenter Board Help</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyTt4tI4cVx3HqcOdptSXxNQ+" 
+        crossorigin="anonymous"
+    >
+    <style>
+        body {
+            background-color: #f9f9f9;
+        }
+        .section-title {
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+        .logo {
+            max-width: 200px;
+        }
+        ul {
+            padding-left: 1.2rem;
+        }
+        li + li {
+            margin-top: 0.4rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="text-center mb-4">
+            <img src="logo.png" alt="Presenter Board Logo" class="logo mb-3">
+            <h1 class="fw-bold">Presenter Board Help</h1>
+            <p class="lead">A simple tool for displaying large text on a display for presentations.</p>
+        </div>
+
+        <section>
+            <h2 class="section-title">Writing Text</h2>
+            <p>Type your text in the main window. This will be shown in large type on the secondary screen when the Presenter window is open.</p>
+            <ul>
+                <li>Use the <strong>font size</strong> to set your preferred font size.</li>
+                <li>Toggle <strong>autocorrect</strong> if needed. Note that this may cause delays in the display of text on the Presenter window. If this happens, hit the space button to complete the autocomplete.</li>
+                <li>Select <strong>alignment</strong> (left, center, right) with the buttons at the top.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Presenter Window</h2>
+            <ul>
+                <li>Press <strong>⌘↩︎</strong> (Command-Return) or click <strong>Display</strong></li>
+                <li>The Presenter window will open fullscreen on the second monitor (or on your main screen if no second display is connected)</li>
+                <li>Press <strong>esc</strong> to close the Presenter window</li>
+                <li>You can choose which <strong>font</strong> will be displayed in the Settings.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Additional Tips</h2>
+            <ul>
+                <li>The Presenter font can be mirrored in the main editor by enabling <strong>“Use presenter font in text editor.”</strong></li>
+                <li>You can clear the editor with the <strong>Clear</strong> button.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Display Opacity Settings</h2>
+            <p>
+                In <strong>Settings</strong>, you can adjust the background <strong>opacity</strong> of the Presenter display using the <strong>Display Opacity</strong> picker.
+                This setting controls the translucency of the text background:
+            </p>
+            <ul>
+                <li>Choose from system materials from <strong>Ultra Thin</strong> (very transparent) to <strong>Ultra Thick</strong> (almost opaque)</li>
+                <li>This changes how much of the background (such as your wallpaper) is visible behind the text</li>
+                <li>Use a thicker material for higher contrast and legibility</li>
+                <li>Use a thinner material for a more transparent, modern aesthetic</li>
+            </ul>
+            <p>An interactive preview lets you see how each option looks in real-time.</p>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS (optional, for interactivity) -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF7Nmsu5TntJq8N5lZBfA14AhcNRW5c1fZGIyHy7tR/" 
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
